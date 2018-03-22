@@ -1,7 +1,7 @@
 # AppTool
 
-  此功能网上都有较好的整理，但有时使用还是不方便，有的分散，有的繁琐。
-  因此将自己常用的一些工具类，整理一下，方便自己使用和修改
+    此功能网上都有较好的整理，但有时使用还是不方便，有的分散，有的繁琐。
+    因此将自己常用的一些工具类，整理一下，方便自己使用和修改
   
  ## 如何使用它
 
@@ -22,10 +22,9 @@
 ## 近期更新日志
 
     v1.8.3.22 版本 增加
+    
               NbActivityTool              : Activity管理工具类
-	      
-              NbIntentTool                : Intent获取管理类
-	      
+              NbIntentTool                : Intent获取管理
               NbFileTool                  : 文件管理工具类
               NbDataTool                  : 数据工具类
               NbConstTool                 : 常量工具类
