@@ -21,8 +21,9 @@
 
 ## 近期更新日志
 
-    v1.8.3.22 版本 增加
-    
+     v1.8.3.22 版本 增加
+     
+     
               NbActivityTool              : Activity管理工具类
               NbIntentTool                : Intent获取管理
               NbFileTool                  : 文件管理工具类
