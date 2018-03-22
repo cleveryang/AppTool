@@ -33,7 +33,7 @@
 	      
 ## 功能模块介绍
 
-> Activity相关 ->NbActivityTool
+> Activity相关 ->NbActivityTool.java
 
     addActivity                 : 添加Activity 到栈
     currentActivity             : 获取当前的Activity（堆栈中最后一个压入的)
