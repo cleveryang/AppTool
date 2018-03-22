@@ -12,7 +12,7 @@ import java.io.File;
 /**
  * Created by yang on 2018/3/22.
  *
- * Intent获取管理
+ * Intent获取管理类
  */
 
 public class NbIntentTool {

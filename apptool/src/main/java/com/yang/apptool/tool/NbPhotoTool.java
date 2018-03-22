@@ -26,7 +26,7 @@ import java.util.Locale;
 
 /**
  * Created by yang on 2018/3/22.
- * <p>
+ *
  * 图片工具类
  */
 

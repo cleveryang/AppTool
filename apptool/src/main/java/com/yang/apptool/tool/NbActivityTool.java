@@ -14,7 +14,7 @@ import java.util.Stack;
 /**
  * Created by yang on 2018/3/22.
  *
- * Activity管理工具
+ * Activity管理工具类
  */
 
 public class NbActivityTool {
