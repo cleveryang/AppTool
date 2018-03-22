@@ -21,17 +21,16 @@
 
 ## 近期更新日志
 
-     v1.8.3.22 版本 增加
-     
-     
-              NbActivityTool              : Activity管理工具类
-              NbIntentTool                : Intent获取管理
-              NbFileTool                  : 文件管理工具类
-              NbDataTool                  : 数据工具类
-              NbConstTool                 : 常量工具类
-              NbEncodeTool                : 编码解码相关工具类
-              NbEncryptTool               : 加密解密相关的工具类
-              NbPhotoTool                 : 图片获取工具类
+> v1.8.3.22 版本 增加
+
+    NbActivityTool              : Activity管理工具类
+    NbIntentTool                : Intent获取管理
+    NbFileTool                  : 文件管理工具类
+    NbDataTool                  : 数据工具类
+    NbConstTool                 : 常量工具类
+    NbEncodeTool                : 编码解码相关工具类
+    NbEncryptTool               : 加密解密相关的工具类
+    NbPhotoTool                 : 图片获取工具类
 	      
 ## 功能模块介绍
 
