@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+//应用butterknife插件
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion 26
@@ -6,7 +8,7 @@ android {
 
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -34,6 +36,9 @@ dependencies {
 
     //沉浸式
     provided 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    //BindView
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
 
-apply from:   '../uploadSource.gradle'
+apply from: '../uploadSource.gradle'

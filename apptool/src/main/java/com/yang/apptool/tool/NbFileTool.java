@@ -567,12 +567,28 @@ public class NbFileTool {
     }
 
     /**
-     * 获取缓存视频文件目录
+     * 获取缓存文件目录
      *
      * @param context
      * @return
      */
     public static String getDiskFileDir(Context context) {
+        String cachePath = null;
+        if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState()) || !Environment.isExternalStorageRemovable()) {
+            cachePath = context.getExternalFilesDir(null).getPath();
+        } else {
+            cachePath = context.getFilesDir().getPath();
+        }
+        return cachePath;
+    }
+
+    /**
+     * 获取缓存视频文件目录
+     *
+     * @param context
+     * @return
+     */
+    public static String getDiskFileMoviesDir(Context context) {
         String cachePath = null;
         if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState()) || !Environment.isExternalStorageRemovable()) {
             cachePath = context.getExternalFilesDir(Environment.DIRECTORY_MOVIES).getPath();
