@@ -15,7 +15,7 @@
 > Step 2. 然后在 build.gradle(Module:app) 的 dependencies 添加:
 
 	dependencies {
-	      compile 'com.github.cleveryang:AppTool:v1.8.3.22'//请替换成上方 JitPack 最新的版本号
+	      compile 'com.github.cleveryang:AppTool:v1.8.7.3'//请替换成上方 JitPack 最新的版本号
 	}
 
 ## 近期更新日志
