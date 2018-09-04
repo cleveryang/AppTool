@@ -39,6 +39,8 @@ dependencies {
     //BindView
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //刷新控件能很好的兼容listview和recycleview
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-7'
 }
 
 apply from: '../uploadSource.gradle'
